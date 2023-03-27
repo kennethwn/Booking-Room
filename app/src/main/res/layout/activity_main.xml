@@ -44,7 +44,7 @@
         android:fontFamily="@font/poppins_regular"
         android:text="KENNETH WILLIAM NOVERIANTO"
         android:textColor="@color/primary_black"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/profpic"
         app:layout_constraintTop_toTopOf="@+id/profpic" />
@@ -55,6 +55,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_regular"
         android:text="BN12345678910"
+        android:textSize="12sp"
         android:textColor="@color/primary_black"
         app:layout_constraintStart_toStartOf="@+id/student_name"
         app:layout_constraintTop_toBottomOf="@+id/student_name" />
@@ -97,9 +98,29 @@
         android:fontFamily="@font/poppins_regular"
         android:text="Student (2501973722)"
         android:textColor="@color/primary_black"
-        android:textSize="12sp"
+        android:textSize="11sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="@+id/role_text"
         app:layout_constraintTop_toBottomOf="@+id/role_text" />
+
+    <TextView
+        android:id="@+id/notes_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Undergraduate (Bandung)\nBINUS BANDUNG"
+        android:textColor="@color/primary_grey"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/student_role_text"
+        app:layout_constraintTop_toBottomOf="@+id/student_role_text" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="24dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notes_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
