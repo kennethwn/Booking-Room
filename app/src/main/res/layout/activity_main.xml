@@ -176,7 +176,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_regular"
         android:text="Helps and Support"
-        android:textColor="@color/primary_grey"
+        android:textColor="@color/primary_black"
         android:textSize="11sp"
         app:layout_constraintStart_toStartOf="@+id/terms_text"
         app:layout_constraintTop_toTopOf="@+id/help_icons" />
