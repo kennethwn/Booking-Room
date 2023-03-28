@@ -252,6 +252,7 @@
                 android:text="Version 1.0.0\n2023 BINUS UNIVERSITY\nAll rights reserved"
                 android:textColor="@color/primary_black"
                 android:textSize="10sp"
+                android:paddingBottom="24dp"
                 app:layout_constraintStart_toStartOf="@+id/logout_icon_admin"
                 app:layout_constraintTop_toBottomOf="@+id/divider5_admin" />
 
